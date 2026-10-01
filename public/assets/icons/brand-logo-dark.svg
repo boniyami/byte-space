@@ -1,0 +1,8 @@
+<svg width="180" height="44" viewBox="0 0 180 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(2, 4)">
+      <path d="M4 2C4 0.895431 4.89543 0 6 0H14C21.732 0 28 6.26801 28 14C28 21.732 21.732 28 14 28H4V2Z" fill="#D4F72C"/>
+      <circle cx="14" cy="14" r="6" fill="#111827"/>
+      <path d="M4 14H14C17.866 14 21 17.134 21 21C21 24.866 17.866 28 14 28H4V14Z" fill="#C6EB1E"/>
+      <text x="36" y="24" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="22" font-weight="800" fill="#111827" letter-spacing="-0.5">ByteSpace</text>
+    </g>
+  </svg>

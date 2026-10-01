@@ -1,0 +1,13 @@
+<svg width="100" height="80" viewBox="0 0 100 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="whiteGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FFFFFF"/>
+        <stop offset="100%" stop-color="#E0E7FF"/>
+      </linearGradient>
+      <filter id="shadowW" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.3"/>
+      </filter>
+    </defs>
+    <path d="M15 20 Q35 5 50 20 T85 20 Q95 40 80 55 T40 60 Q20 50 15 20Z" 
+      fill="url(#whiteGrad)" filter="url(#shadowW)"/>
+  </svg>

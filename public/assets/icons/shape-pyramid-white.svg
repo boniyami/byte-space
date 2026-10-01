@@ -1,0 +1,19 @@
+<svg width="90" height="100" viewBox="0 0 90 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="pyr1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#FFFFFF"/>
+        <stop offset="100%" stop-color="#CBD5E1"/>
+      </linearGradient>
+      <linearGradient id="pyr2" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#E2E8F0"/>
+        <stop offset="100%" stop-color="#94A3B8"/>
+      </linearGradient>
+      <filter id="pyrShadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.3"/>
+      </filter>
+    </defs>
+    <g filter="url(#pyrShadow)">
+      <polygon points="45,10 10,80 50,85" fill="url(#pyr1)"/>
+      <polygon points="45,10 50,85 85,70" fill="url(#pyr2)"/>
+    </g>
+  </svg>

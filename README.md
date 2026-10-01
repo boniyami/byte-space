@@ -7,7 +7,7 @@ A modern, responsive React application built with **React 18**, **Vite**, and **
 ## 📁 Clean React Project Structure
 
 ```
-BoniWork/
+byte-space-landing/
 ├── public/                      # Static assets served by Vite
 │   └── assets/
 │       ├── icons/               # Brand SVGs and 3D geometric shapes
@@ -51,18 +51,23 @@ BoniWork/
 ## 🚀 Getting Started
 
 ### 1. Run Development Server
+
 ```powershell
 npm run dev
 ```
+
 Open **[http://localhost:5173](http://localhost:5173)** in your browser.
 
 ### 2. Available Routes
+
 - **`/`**: ByteSpace Landing Page with interactive course filtering, search, modal preview, and cart counter.
 - **`/login`**: Split-screen Login with remember-me, show/hide password, and social sign-in.
 - **`/register`**: Split-screen Sign-up with full validation.
 
 ### 3. Build for Production
+
 ```powershell
 npm run build
 ```
+
 Generates an optimized production bundle in the `dist/` folder.
